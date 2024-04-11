@@ -1,6 +1,8 @@
 import React from "react";
 
 import pic from "../../public/photo.avif";
+import pic2 from "../../src/assets/images/profile.jpg";
+
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -19,8 +21,7 @@ function Home() {
     <>
       <div
         name="Home"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28"
-      >
+        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28"  style={{background:""}}>
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
             <span className="text-xl">Welcome In My Feed</span>
@@ -28,7 +29,7 @@ function Home() {
               <h1>Hello, I'm a</h1>
               {/* <span >Developer</span> */}
               <ReactTyped
-                className="text-red-700 font-bold"
+                className="text-green-700 font-bold"
                 strings={["Developer", "Programmer", "Coder"]}
                 typeSpeed={40}
                 backSpeed={50}
@@ -55,7 +56,7 @@ function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/vishwajeet-verma-52622b203/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
@@ -84,8 +85,8 @@ function Home() {
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
             <img
-              src={pic}
-              className="rounded-full md:w-[450px] md:h-[450px]"
+              src={pic2}
+              className="rounded-full md:w-[400px] md:h-[400px]"
               alt=""
             />
           </div>

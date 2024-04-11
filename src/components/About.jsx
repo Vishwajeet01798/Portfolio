@@ -9,7 +9,7 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I'm Akhil, a passionate Web developer with a keen eye for MERN
+          Hello, I'm Vishwajeet, a passionate Web developer with a keen eye for MERN
           Stack . With a background in IT, I strive to create impactful and
           visually stunning Software solutions that leave a lasting impression.
         </p>
@@ -18,9 +18,9 @@ function About() {
           Education & Training
         </h1>
         <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
+          <b>MCA </b>(2019-2020), [Integral University]<br/> 
+          <b>BCA </b>(2015-2018), [Integral University] 
+          
         </span>
         <br />
         <br />
@@ -28,10 +28,9 @@ function About() {
           Skills & Expertise
         </h1>
         <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
+          Proficient in <b>[C, C#, .Net, JavaScript, MsSql, MongoDB]</b>  Experienced with <b>[Reactjs, Nodejs, Express, MongoDB]</b>, <nsbp/>
           Excellent problem-solving skills Effective communicator and
-          collaborator
+          collaborator.
         </span>
         <br />
         <br />
@@ -39,21 +38,20 @@ function About() {
           Professional Experience
         </h1>
         <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
+           <b>[Techpile Technology Pvt. Ltd]</b> ,[MERN Stack Developer]
+          <br />
+          <b>[Softpro Pvt. Ltd]</b>,[Full Stack Developer], 
+         
         </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        {/* <br />
+        <br /> */}
+        {/* <h1 className="text-green-600 font-semibold text-xl">
           Achievements & Awards
         </h1>
         <span>
           [Award/Recognition], [Organization/Institution], [Year] [Achievement],
           [Organization/Platform], [Year]
-        </span>
+        </span> */}
         <br />
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
